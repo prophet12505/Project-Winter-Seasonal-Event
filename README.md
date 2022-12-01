@@ -12,4 +12,6 @@ we contact each other using phone, whatsapp group chat, and email according to t
 ### Resources
  crop your images into round shape
  https://crop-circle.imageonline.co/
+ W3.css tutorial
+ https://www.w3schools.com/w3css/w3css_intro.asp
  
