@@ -1,6 +1,6 @@
 //function that deal with the onclick event
 let txtName=$("#greeting");
-let button=$("#input-button");
+let button=$("#enter-name-button");
 button.onclick=inputName;
 
 function inputName(){
