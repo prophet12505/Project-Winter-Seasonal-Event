@@ -11,3 +11,4 @@ function inputName(){
 
     txtName.style.display="inline-block";
 }
+inputName();
