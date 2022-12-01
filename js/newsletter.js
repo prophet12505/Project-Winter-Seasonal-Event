@@ -1,5 +1,8 @@
 //function that deal with the onclick event
-let txtName=document.getElementById("greeting");
+let txtName=$("#greeting");
+let button=$("#input-button");
+button.onclick=inputName;
+
 function inputName(){
     let name="";
     let indication="Hellow, what's your name?"
@@ -11,4 +14,4 @@ function inputName(){
 
     txtName.style.display="inline-block";
 }
-inputName();
+// inputName();
