@@ -9,3 +9,7 @@ we contact each other using phone, whatsapp group chat, and email according to t
  https://prophet12505.github.io/Project-Winter-Seasonal-Event/
 
 
+### Resources
+ crop your images into round shape
+ https://crop-circle.imageonline.co/
+ 
