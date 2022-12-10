@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Brandon Lobster Crawl | Home</title>
     <link rel="stylesheet" href="css/w3.css">
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/styles.css">
     <link rel="shortcut icon" href="./imgs/favicon/lobster.png" type="image/x-icon">
     <script src="./js/jquery-3.6.1.min.js"></script>
 </head>
@@ -25,32 +25,32 @@
 
             <div class="mySlides">
                 <div class="numbertext">1/6</div>
-                    <img src = ".imgs/whale_res.jpg" class="w3-border w3-padding" style="width: 100%">
+                    <img src="./imgs/whale_res.jpg" class="w3-border w3-padding" style="width: 100%">
             </div>
 
             <div class="mySlides">
                 <div class="numbertext">2/6</div>
-                    <img src = ".imgs/wise_men_res.jpg" class="w3-border w3-padding" style="width: 100%">
+                    <img src="./imgs/wise_men_res.jpg" class="w3-border w3-padding" style="width: 100%;">
             </div>
 
             <div class="mySlides">
                 <div class="numbertext">3/6</div>
-                    <img src = ".imgs/penguin_res.jpg" class="w3-border w3-padding" style="width: 100%">
+                    <img src="./imgs/penguin_res.jpg" class="w3-border w3-padding" style="width: 100%">
             </div>
 
             <div class="mySlides">
                 <div class="numbertext">4/6</div>
-                    <img src = ".imgs/asian_res.jpg" class="w3-border w3-padding" style="width: 100%">
+                    <img src="./imgs/asian_res.jpg" class="w3-border w3-padding" style="width: 100%;">
             </div>
 
-            <div class="mySlides">
+            <div class="mySlides"> 
                 <div class="numbertext">5/6</div>
-                    <img src = ".imgs/man_head_res.jpg" class="w3-border w3-padding" style="width: 100%">
+                    <img src="./imgs/man_head_res.jpg" class="w3-border w3-padding" style="width: 100%;">
             </div>
 
             <div class="mySlides">
                 <div class="numbertext">6/6</div>
-                    <img src = ".imgs/dino_res" class="w3-border w3-padding" style="width: 100%">
+                    <img src="./imgs/dino_res.jpg" class="w3-border w3-padding" style="width: 100%;">
             </div>
 
             <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
@@ -71,7 +71,7 @@
                 </div>
 
                 <div class = "column">
-                    <img class = "demo cursor w3-border w3-padding" src= "imgs/penguin_res.jpg" style ="width: 100%" onclick="currentSlide(3)" alt="Snow Sculpture Winter Fest">
+                    <img class = "demo cursor w3-border w3-padding" src= "imgs/penguin_res.jpg" style ="width: 100%" onclick="currentSlide(3)" alt="Snow Sculpture Fest">
                 </div>
 
                 <div class = "column">
@@ -87,14 +87,31 @@
                 </div>
             </div>
         </div>
-        <div class="timer-container">&NonBreakingSpace;
-            <div id="days-index"></div>
-            <div id="timer-index"></div>
+
+        <div class="timer-container">
+            <div id="timer">
+                <div class="time-border">
+                    <div id="days">&nbsp;</div>
+                    <h4 id="dayslbl">days</h4>
+                </div>
+                <div class="time-border">
+                    <div id="hours">&nbsp;</div>
+                    <h4 id="hourslbl">hours</h4>
+                </div>  
+                <div class="time-border">
+                    <div id="minutes">&nbsp;</div>
+                    <h4 id="minuteslbl">minutes</h4>
+                </div>
+                <div class="time-border">
+                    <div id="seconds">&nbsp;</div>
+                    <h4 id="secondslbl">seconds</h4>
+                </div>
+            </div>
         </div>
+
     </div>
 
     <header>
-
         <div class="card-container">
             <div id="schedule-card">
                 <img src="imgs/ghost_res.jpg" class="w3-border w3-padding">
@@ -109,7 +126,10 @@
                 <p>lorem ipsum whatever</p>
         </div>
     </header>
-    
+
+    <script src="./js/index-gallery.js"></script>
+    <script src="./js/index-timer.js"></script>
+
     <footer>
         <h6>Copyright 2077 | SEELE HX GD  cccc JD NERV SEELE</h6>
     </footer>
