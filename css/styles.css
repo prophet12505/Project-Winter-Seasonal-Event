@@ -1,94 +1,87 @@
-* 
-    {
-        box-sizing: border-box;
-    }
-    
-    body 
-    {
-        margin: 0;
-        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
-    }
+* {
+    box-sizing: border-box;
+}
 
-.slide-container
-    {
-        position: relative;
-        margin: 0 auto;
-        width: 100%;
-    }
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
 
-.mySlides
-    {
-        object-fit: cover;
-    }
+.gallery-container {
 
-.cursor
-    {
-        cursor: pointer;
-    }
+}
 
-.prev, .next
-    {
-        cursor: pointer;
-        position: absolute;
-        top: 40%;
-        width: auto;
-        padding: 16px;
-        margin-top: -50px;
-        color: azure;
-        font-weight: bolder;
-        font-size: 20px;
-        border-radius: 0 3px 3px 0;
-        user-select: none;
-        -webkit-user-select: none;
-    }
+.slide-container {
+    position: relative;
+    margin: 0 auto;
+    width: 100%;
+}
 
-.next
-    {
-        right: 0;
-        border-radius: 3px 0 0 3px;
-    }
+.mySlides {
+    object-fit: cover;
+}
 
-.prev:hover, .next:hover 
-    {
-        background-color: rgba(0, 0, 0, 0.4);
-    }
+.cursor {
+    cursor: pointer;
+}
 
-.numbertext
-    {
-        color: azure;
-        font-size: 12px;
-        padding: 8px 12px;
-        position: absolute;
-        top: 0;
-    }
+.prev,
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 40%;
+    width: auto;
+    padding: 16px;
+    margin-top: -50px;
+    color: azure;
+    font-weight: bolder;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+}
 
-.caption-container
-    {
-        text-align: center;
-        background-color: #222;
-        padding: 2px 16px;
-        color: azure;
-    }
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
 
-.row:after
-    {
-        content: "";
-        display: table;
-        clear:both;
-    }
+.prev:hover,
+.next:hover {
+    background-color: rgba(0, 0, 0, 0.4);
+}
 
-.column
-    {
-        float:left;
-        width: 16.66%;
-    }
+.numbertext {
+    color: azure;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
 
-.demo
-    {
-        opacity: 0.6;
-    }
+.caption-container {
+    text-align: center;
+    background-color: #222;
+    padding: 2px 16px;
+    color: azure;
+}
 
-.active, .demo:hover
-    {
-        opacity:1;
-    }
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.column {
+    float: left;
+    width: 16.66%;
+}
+
+.demo {
+    opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+    opacity: 1;
+}
