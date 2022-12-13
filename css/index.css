@@ -1,4 +1,4 @@
-.timer-container{
+/* .timer-container{
     padding: 30px 0;
     background-image: linear-gradient(to right bottom,#10a19cbd,#550375af), url(../imgs/visitors_res.jpg);
     background-position: top;
@@ -6,22 +6,29 @@
     color: #ff6f00d4;
     border:2px solid #ffbf00df ;
     
-}
+} */
+
 #timer{
-    border: 2px solid #550375af;
-    border-radius: 10px;
+    position: absolute;
+    display: table-column;
+    top: 7.5vw;
+    width: 100%;
+    /* border: 2px solid #550375af;
+    border-radius: 10px; */
     margin: 40px;
-    background-color: rgba(137, 137, 137, 0.584);
+    /* background-color: rgba(137, 137, 137, 0.2); */
     opacity: 0.8;
+    z-index: 1;
 }
 .figure{
     display: inline-block;
     border: 20px solid;
     padding: 30px 35px;
     border-radius: 50%;
-    border-color: #ffbf00df;
+    border-color: #45858C #D92B04;
     font-family: 'Monoton', cursive;
-    font-size: 60px;
+    font-size: 70px;
+    color: #D9C589;
     /* border-color: linear-gradient(to right bottom,#10a19cbd,#550375af); */
 }
 #days{
@@ -47,7 +54,9 @@
 
 }
 .figure-label{
-    font-size: 30px;
+    font-size: 25px;
+    font-weight: bolder;
+    color: #F2CB05;
 }
 
 
@@ -62,4 +71,12 @@
 }
 #seconds{
 
+}
+
+.card-container {
+    position: relative;
+}
+
+#index-text {
+    position: relative;
 }

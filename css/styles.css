@@ -12,9 +12,10 @@ body {
 }
 
 .slide-container {
-    position: relative;
+    position: absolute;
     margin: 0 auto;
     width: 100%;
+    z-index: -1;
 }
 
 .mySlides {
@@ -54,16 +55,18 @@ body {
 .numbertext {
     color: azure;
     font-size: 12px;
-    padding: 8px 12px;
+    padding: 15px 25px;
     position: absolute;
     top: 0;
 }
 
 .caption-container {
     text-align: center;
-    background-color: #222;
+    background-color: #A3D9D9;
     padding: 2px 16px;
-    color: azure;
+    color: snow;
+    font-family: 'Monoton';
+    font-size: 1.75vw;
 }
 
 .row:after {
