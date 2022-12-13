@@ -88,3 +88,68 @@ body {
 .demo:hover {
     opacity: 1;
 }
+
+.card-container {
+    display: flex;
+    padding-top: 150vh;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    height: 600px;
+    margin: 50;
+    overflow: hidden;
+}
+
+.card-img {
+    height: 600px;
+    width: 338px;
+    border-radius: 10px;
+}
+
+.card-text {
+    height: 30px;
+    text-align: center;
+    width: 338px;
+    padding: 6px;
+    box-sizing: border-box;
+    position: absolute;
+    bottom: 35px;
+    color: snow;
+    font-family: sans-serif;
+    font-weight: lighter;
+}
+
+h3 {
+    margin: 10px;
+    font-size: 20px;
+}
+
+p {
+    margin: 20px;
+    font-size: 12px;
+    visibility: hidden;
+    opacity: 0;
+}
+
+.card:hover {
+    cursor: pointer;
+}
+
+.card:hover .card-text {
+    height: 150px;
+    background-color: rgba(163, 217, 217, 0.85);
+
+}
+
+.card:hover p {
+    opacity: 1;
+    visibility: visible;
+}
+
+.card:hover .card-img {
+    transform: scale(1.1) rotate(-2deg);
+    box-shadow: black;
+    border-radius: 10px;
+}
