@@ -8,11 +8,11 @@ body {
 }
 
 .gallery-container {
-
+    object-fit: contain;
 }
 
 .slide-container {
-    position: absolute;
+    position: relative;
     margin: 0 auto;
     width: 100%;
     z-index: -1;
@@ -91,7 +91,7 @@ body {
 
 .card-container {
     display: flex;
-    padding-top: 150vh;
+    padding-top: 5vh;
 }
 
 .card {
