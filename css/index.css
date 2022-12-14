@@ -17,10 +17,16 @@
 }
 #slide-title{
     top: 60px;
+    animation-name: moveInLeft;
+    animation-duration: 1.5s;
+    animation-timing-function: ease-in;
     
 }
 #slide-subtitle{
     top: 120px;
+    animation-name: moveInRight;
+    animation-duration: 1.5s;
+    animation-timing-function: ease-in;
 }
 #timer{
     position: absolute;

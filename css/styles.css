@@ -177,3 +177,33 @@ p {
     position: relative;
     left: 30px;
 }
+
+@keyframes moveInLeft {
+    0%{
+        opacity: 0;
+        transform: translateX(-100px)
+    }
+    80%{
+        transform: translateX(20px);
+    }
+    100%{
+        opacity: 1;
+        transform: translate(0);
+    }
+
+}
+@keyframes moveInRight{
+    0%{
+        opacity: 0;
+        transform: translateX(200px); 
+    }
+
+    80%{
+        transform: translateX(-20px);
+    }
+
+    100%{
+        opacity: 1;
+        transform: translate(0);
+    }
+}
