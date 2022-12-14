@@ -9,17 +9,21 @@ body {
 
 .gallery-container {
     object-fit: contain;
+    
 }
 
 .slide-container {
     position: relative;
+    display: inline-block;
     margin: 0 auto;
     width: 100%;
+
     z-index: -1;
 }
 
 .mySlides {
     object-fit: cover;
+
 }
 
 .cursor {
