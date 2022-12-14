@@ -16,16 +16,23 @@
 .figure{
     display: inline-block;
     border: 20px solid;
-    padding: 30px 35px;
+    width: 160px;
+    height: 160px;
+ 
     border-radius: 50%;
     border-color: #45858cd5 #d92b04d2;
     font-family: 'Monoton', cursive;
-    font-size: 70px;
+    /* font-size: 70px; */
+    font-size: 80px;
+    text-align: center;
     color: #D9C589;
     /* border-color: linear-gradient(to right bottom,#10a19cbd,#550375af); */
 }
 #days{
-    padding: 50px 50px;
+    /* padding: 50px 50px; */
+    width: 240px;
+    height: 240px;
+    font-size: 130px;
     transform: translateX(10px);
 }
 
