@@ -17,7 +17,7 @@
 // }
 
 
-btnName = document.getElementById("enterName");
+btnName = document.getElementById("enter-name-button");
 userName = document.getElementById("name")
 secretMsg = document.getElementById("secretMessage");
 btnName.onclick = namePrompt;

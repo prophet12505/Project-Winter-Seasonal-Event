@@ -25,26 +25,26 @@ function countDown() {
   document.getElementById("minutes").innerHTML = fixZero(minutes);
   document.getElementById("seconds").innerHTML = fixZero(seconds);
 
-  if (days === 1) {
-    document.getElementById("dayslbl").innerHTML = "Day";
-  } else {
-    document.getElementById("dayslbl").innerHTML = "Days";
-  }
-  if (hours === 1) {
-    document.getElementById("hourslbl").innerHTML = "hour";
-  } else {
-    document.getElementById("hourslbl").innerHTML = "hours";
-  }
-  if (minutes === 1) {
-    document.getElementById("minuteslbl").innerHTML = "minute";
-  } else {
-    document.getElementById("minuteslbl").innerHTML = "minutes";
-  }
-  if (seconds === 1) {
-    document.getElementById("secondslbl").innerHTML = "second";
-  } else {
-    document.getElementById("secondslbl").innerHTML = "seconds";
-  }
+  // if (days === 1) {
+  //   document.getElementById("dayslbl").innerHTML = "Day";
+  // } else {
+  //   document.getElementById("dayslbl").innerHTML = "Days";
+  // }
+  // if (hours === 1) {
+  //   document.getElementById("hourslbl").innerHTML = "hour";
+  // } else {
+  //   document.getElementById("hourslbl").innerHTML = "hours";
+  // }
+  // if (minutes === 1) {
+  //   document.getElementById("minuteslbl").innerHTML = "minute";
+  // } else {
+  //   document.getElementById("minuteslbl").innerHTML = "minutes";
+  // }
+  // if (seconds === 1) {
+  //   document.getElementById("secondslbl").innerHTML = "second";
+  // } else {
+  //   document.getElementById("secondslbl").innerHTML = "seconds";
+  // }
 
   if (days < 1 && (hours < 12 || minutes < 0 || seconds < 60)) {
     document.getElementById("timer").style.color = "darkred";

@@ -30,7 +30,6 @@
 }
 .gallery-container {
     object-fit: contain;
-    
 }
 
 .slide-container {
@@ -85,6 +84,10 @@
 
 .card-container {
     position: relative;
+    /* display: inline-block; */
+    /* width: 70%; */
+
+    /* margin: 0 auto; */
 
 }
 
