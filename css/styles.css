@@ -8,13 +8,13 @@ body {
 }
 
 .nav {
-    background-color: transparent;
-    /* opacity: 0; */
+    background-color: #45858C;
     text-align: center;
     position: relative;
     font-size: 3vh;
     font-family: 'Quicksand';
-    color: #A3D9D9;
+    color: snow;
+    /* text-shadow: 2px 2px #BF9765; */
     
 }
 
@@ -59,14 +59,13 @@ body {
 .caption-container {
     text-align: center;
     background-color: #A3D9D9;
-    padding: 2px 16px;
+    text-shadow: 3px 3px #A3D9D9;
     color: snow;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 1.75vh;
+    padding: 0;
 }
 
 #caption {
-    font-size: 5vh;
+    font-size: 48px;
     font-family: 'Rubik Vinyl', cursive;
 }
 
@@ -93,17 +92,25 @@ body {
 .text-index {
     background-color: #A3D9D9;
     position: relative;
-    background-image:linear-gradient(to right bottom,#1008f0a5,#D9C589),url(./imgs/silhouette_res.jpg);
+    background-image: url(../imgs/silhouette_res.jpg);
+    background-size: 1920px;
+    background-position: center;
 }
 
 #index-text-header  {
     font-family: 'Quicksand' !important;
+    font-weight: bold;
+    text-shadow: 2px 2px #45858C;
+    color: snow;
     margin: 0;
     padding: 2vw 2vw 2vw 2vw;
 }
 
 #index-text {
     font-family: 'Quicksand' !important;
+    font-weight: bold;
+    text-shadow: 2px 2px #45858C;
+    color: snow;
     margin: 0;
     padding: 2vw 2vw 2vw 2vw;
 }
@@ -159,6 +166,7 @@ body {
 .figure-data{
     font-size: 90px;
     margin-top: 30px;
+    margin-left: 0px;
 }
 
 .time-border{
@@ -217,4 +225,15 @@ body {
         opacity: 1;
         transform: translate(0);
     }
+}
+
+footer {
+    background-color: #45858C;
+    text-align: center;
+    font-size: 12px;
+    font-family: 'Quicksand';
+    margin: 0;
+    padding: 1vh 1vw 1vh 1vw;
+    color: snow;
+    text-shadow: 1px 1px #A3D9D9;
 }

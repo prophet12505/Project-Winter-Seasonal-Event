@@ -25,11 +25,11 @@ function countDown() {
   document.getElementById("minutes").innerHTML = fixZero(minutes);
   document.getElementById("seconds").innerHTML = fixZero(seconds);
 
-  // if (days === 1) {
-  //   document.getElementById("dayslbl").innerHTML = "Day";
-  // } else {
-  //   document.getElementById("dayslbl").innerHTML = "Days";
-  // }
+  if (days === 1) {
+    document.getElementById("dayslbl").innerHTML = "Day";
+  } else {
+    document.getElementById("dayslbl").innerHTML = "Days";
+  }
   // if (hours === 1) {
   //   document.getElementById("hourslbl").innerHTML = "hour";
   // } else {
@@ -54,7 +54,7 @@ function countDown() {
   // If the count down is over, stop the timer and write some text
   if (difference <= 0) {
     clearInterval(startCountDown); // stop setInterval function
-    document.getElementById("intro").innerHTML = "Westman Winterfest 2022 begins...",
+    // document.getElementById("intro").innerHTML = "Westman Winterfest 2022 begins...",
     document.getElementById("timer").innerHTML = "â„ RIGHT NOW! ðŸ›·";
   }
 

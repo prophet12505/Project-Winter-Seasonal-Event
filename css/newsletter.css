@@ -1,5 +1,5 @@
 #timer{
-    background-image:linear-gradient(to right bottom,#1008f0a5,#D9C589),url(../imgs/silhouette_res.jpg) ;
+    background-image:linear-gradient(to right bottom,#bf9765cd,#a3d9d9d1),url(../imgs/silhouette_res.jpg) ;
     margin: 0;
     padding: 0;
 }
@@ -34,7 +34,8 @@ h1{
     .btn-green{
         opacity: 1.0;
         /* background-color: #1dc639; */
-        background-color: #45858C;
+        /* background-color: #45858C; */
+        background-image: linear-gradient(to left top,#bf9765cd,#a3d9d9d1);
 
         border-radius: 6px;
     }
@@ -60,7 +61,8 @@ h1{
     
     #enter-name-button:hover {
         /* background-color: #59AFF5; */
-        background-color: #d92b0495;
+        /* background-color: #d92b0495; */
+        background-image: linear-gradient(to left top,#bf9765cd,#D94E8F);
         
         transform: translateY(-3px);
     }
@@ -77,8 +79,9 @@ h1{
         position: absolute;
         border: groove #000000 solid;
         opacity: 1.0;
-        /* background-color: #1dc639; */
-        background-color: #45858C;
+
+        /* background-color: #45858C; */
+        background-image: linear-gradient(to left top,#bf9765cd,#a3d9d9d1);
         border-radius: 6px;
         top: 0px;
         left:0px;
@@ -93,6 +96,7 @@ h1{
 #welcomeLine 
     {
         background-color: #A3D9D9 ;
+        /* background-image: linear-gradient(to left top,#bf9765cd,#a3d9d9d1); */
         color: azure;
         line-height: 70px;
         padding: 0 21px;
@@ -105,6 +109,7 @@ h1{
 #secretMessage
     {
         color: #D94E8F;
+       
         padding: 0;
         text-align: center;
         line-height: 100px;
