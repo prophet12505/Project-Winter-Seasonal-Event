@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/w3.css">
+    <link rel="stylesheet" href="css/newsletter.css">
     <link rel="shortcut icon" href="./imgs/favicon/lobster.png" type="image/x-icon">
     <script src="./js/jquery-3.6.1.min.js"></script>
     <title>Newsletter</title>
@@ -25,11 +26,16 @@
         <header>
             <h1 id="greeting"></h1>
             <p>Welcome to join our activity! We have some good news for you! <span id="time"></span></p>
-            <button class="w3-button w3-green" id="enter-name-button" >Enter Your Name</button>
+            
         </header>
 
         <section>
-            <div class="time-banner">
+            <!-- <div class="mySlides">
+                <div class="numbertext"> </div>
+                <img src="./imgs/silhouette_res.jpg" class="w3-border w3-padding" style="width: 100%">
+            </div> -->
+
+            <!-- <div class="time-banner">
                 <div class="timer "  id="days">
                     11:14
                 </div>
@@ -46,12 +52,39 @@
             <div class="message-banner">
                 
                 <p>seceret message here</p>
+            </div> -->
+            <div id="timer" class="timer">
+                <div class="w3-cell-row">
+                    <div class="w3-container w3-cell">
+                        <div class="time-border">
+                            <div id="days" class="figure">&nbsp;</div>
+                            <h4 id="dayslbl" class="figure-label">days</h4>
+                        </div>
+                    </div>
+                
+                    <div class="w3-container w3-cell">
+                        <div class="time-border">
+                            <div id="hours" class="figure">&nbsp;</div>
+                            <h4 id="hourslbl" class="figure-label">hours</h4>
+                        </div>
+                    </div>
+                
+                    <div class="w3-container w3-cell">
+                        <div class="time-border">
+                            <div id="minutes" class="figure">&nbsp;</div>
+                            <h4 id="minuteslbl" class="figure-label">minutes</h4>
+                        </div>
+                    </div>
+                    <div class="w3-container w3-cell">
+                        <div class="time-border">
+                            <div id="seconds" class="figure">&nbsp;</div>
+                            <h4 id="secondslbl" class="figure-label">seconds</h4>
+                        </div>
+                    </div>
+                </div>
             </div>
+            <button class="w3-button w3-green" id="enter-name-button" >Enter Your Name</button>
         </section>
-        
-
-
-
 
     </div>
 
@@ -60,6 +93,6 @@
     <!-- </div> -->
     <script src="./js/newsletter.js"></script>
     <script src="./js/scripts.js"></script>
-
+    <script src="./js/index-timer.js"></script>
 </body>
 </html>

@@ -1,5 +1,5 @@
 // Set the target date we're counting down to
-let countDownDate = new Date("December 16, 2022 23:59:00").getTime();
+let countDownDate = new Date("December 16, 2023 23:59:00").getTime();
 // console.log(countDownDate);
 
 // Calculate the days, hours, minutes and seconds to target date & time

@@ -13,7 +13,7 @@
     color: #e0e718ec;
     margin: 0;
     padding: 0;
-    
+
 }
 #slide-title{
     top: 60px;
@@ -27,64 +27,6 @@
     animation-name: moveInRight;
     animation-duration: 1.5s;
     animation-timing-function: ease-in;
-}
-#timer{
-    position: absolute;
-    display: table-column;
-    top: 7.5vw;
-    width: 100%;
-
-    margin: 40px;
-    /* background-color: rgba(137, 137, 137, 0.2); */
-    opacity: 0.8;
-    z-index: 1;
-}
-
-.figure{
-    display: inline-block;
-    border: 20px solid;
-    width: 160px;
-    height: 160px;
- 
-    border-radius: 50%;
-    border-color: #45858cd5 #d92b04d2;
-    font-family: 'Monoton', cursive;
-    /* font-size: 70px; */
-    font-size: 77px;
-    text-align: center;
-    color: #D9C589;
-    /* border-color: linear-gradient(to right bottom,#10a19cbd,#550375af); */
-}
-#days{
-
-    width: 240px;
-    height: 240px;
-    font-size: 130px;
-    transform: translateX(10px);
-}
-
-.time-border{
-    display: inline-block;
-    width: 120px;
-    margin: 0 50%;
-    transform: translateX(-50%);
-
-    font-size: 50px;
-    text-align: center;
-  
-}
-#days-border{
-    display: inline-block;
-    width: 300px;
-    margin-top: 100px;
-    margin-left: 50%;
-    transform: translateX(-50%);
-
-}
-.figure-label{
-    font-size: 25px;
-    font-weight: bolder;
-    color: #F2CB05;
 }
 
 
@@ -107,4 +49,25 @@
 
 #index-text {
     position: relative;
+}
+
+/* timer -- days  */
+#timer{
+    position: absolute;
+    display: table-column;
+}
+#days{
+
+    width: 240px;
+    height: 240px;
+    font-size: 130px;
+    transform: translateX(10px);
+}
+#days-border{
+    display: inline-block;
+    width: 300px;
+    margin-top: 100px;
+    margin-left: 50%;
+    transform: translateX(-50%);
+
 }
