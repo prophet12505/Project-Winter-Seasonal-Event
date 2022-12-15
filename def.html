@@ -9,6 +9,17 @@
     <link rel="stylesheet" href="css/w3.css">
     <link rel="stylesheet" href="css/def.css">
     <link rel="shortcut icon" href="./imgs/favicon/lobster.png" type="image/x-icon">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Monoton&family=Playfair+Display&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&family=Rubik+Vinyl&display=swap" rel="stylesheet">
 
     <script src="./js/jquery-3.6.1.min.js"></script>
     <title>SS Fest | Newsletter</title>
@@ -23,59 +34,64 @@
 
     <div id="gallery-container">
 
-            <div class="w3-bar w3-black">
+            <div id="timer" class="timer">
 
-                <a href="./index.html" class="w3-bar-item w3-button">Home</a>
-                <a href="./def.html" class="w3-bar-item w3-button">Web Languages</a>
-                <a href="./newsletter.html" class="w3-bar-item w3-button">Newsletter</a>
+                <div class="nav">
 
-            </div>
+                    <a href="./index.html" class="w3-bar-item w3-button">Home</a>
+                    <a href="./def.html" class="w3-bar-item w3-button">Web Languages</a>
+                    <a href="./newsletter.html" class="w3-bar-item w3-button">Newsletter</a>
+    
+                </div>
 
-
-
-
-        <div id="timer" class="timer">
-            <h1 id="greeting">Hello, guest</h1>
-            <h6>Welcome to join our activity! We have some good news for you! <span id="time"></span></h6>
-            
-       
-            <p>The current 2023 event schedule is subject to change. Event information will be finalized in summer 2023.
-                Check our website and social media for event and festival updates.</p>
-
+                <!-- <h1 id="greeting">Hello, guest</h1>
+                <h6>Welcome to join our activity! We have some good news for you! <span id="time"></span></h6> -->
                 
                     <div class="w3-cell-row">
                         <div class="w3-container w3-cell">
                             <div class="time-border">
-                                <div id="days" class="figure">&nbsp;</div>
+                                <div class="figure">
+                                    <p  class="figure-data" id="days">
+                                        &nbsp;
+                                    </p>
+                                    
+                                </div>
                                 <h4 id="dayslbl" class="figure-label">days</h4>
                             </div>
                         </div>
                     
                         <div class="w3-container w3-cell">
                             <div class="time-border">
-                                <div id="hours" class="figure">&nbsp;</div>
+                                <div  class="figure">
+                                    <p class="figure-data" id="hours">
+                                        &nbsp;
+                                    </p>
+                                    
+                                </div>
                                 <h4 id="hourslbl" class="figure-label">hours</h4>
                             </div>
                         </div>
                     
                         <div class="w3-container w3-cell">
                             <div class="time-border">
-                                <div id="minutes" class="figure">&nbsp;</div>
+                                <div  class="figure">
+                                    <p class="figure-data" id="minutes" >&nbsp;</p>
+                                </div>
                                 <h4 id="minuteslbl" class="figure-label">minutes</h4>
                             </div>
                         </div>
                         <div class="w3-container w3-cell">
                             <div class="time-border">
-                                <div id="seconds" class="figure">&nbsp;</div>
+                                <div  class="figure">
+                                    <p class="figure-data" id="seconds">
+                                        &nbsp;
+                                    </p>
+                                </div>
                                 <h4 id="secondslbl" class="figure-label">seconds</h4>
                             </div>
                         </div>
                     </div>
                 </div>
-                <button id="enter-name-button" class="w3-button w3-green">Enter Your Name</button>
-
-
-    </div>
 
     <div class="w3-container cancel-margin">
         <h2>Snow Sculpture Winter Fest</h2>

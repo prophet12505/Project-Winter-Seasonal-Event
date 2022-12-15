@@ -7,24 +7,17 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
 
-.gallery-container {
-    object-fit: contain;
+.nav {
+    background-color: transparent;
+    /* opacity: 0; */
+    text-align: center;
+    position: relative;
+    font-size: 3vh;
+    font-family: 'Quicksand';
+    color: #A3D9D9;
     
 }
 
-.slide-container {
-    position: relative;
-    display: inline-block;
-    margin: 0 auto;
-    width: 100%;
-
-    z-index: -1;
-}
-
-.mySlides {
-    object-fit: cover;
-
-}
 
 .cursor {
     cursor: pointer;
@@ -69,8 +62,13 @@ body {
     background-color: #A3D9D9;
     padding: 2px 16px;
     color: snow;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
-    font-size: 1.75vw;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.75vh;
+}
+
+#caption {
+    font-size: 5vh;
+    font-family: 'Rubik Vinyl', cursive;
 }
 
 .row:after {
@@ -192,8 +190,8 @@ p {
 .figure{
     display: inline-block;
     border: 20px solid;
-    width: 160px;
-    height: 160px;
+    width: 240px;
+    height: 240px;
 
     border-radius: 50%;
     border-color: #45858cd5 #d92b04d2;
@@ -204,7 +202,10 @@ p {
     color: #D9C589;
     /* border-color: linear-gradient(to right bottom,#10a19cbd,#550375af); */
 }
-
+.figure-data{
+    font-size: 90px;
+    margin-top: 30px;
+}
 
 .time-border{
     display: inline-block;
@@ -220,7 +221,8 @@ p {
 .figure-label{
     font-size: 25px;
     font-weight: bolder;
-    color: #F2CB05;
+    font-family: 'Quicksand';
+    color: #A3D9D9;
 }
 
 

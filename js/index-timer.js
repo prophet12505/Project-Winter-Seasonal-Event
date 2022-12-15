@@ -26,9 +26,9 @@ function countDown() {
   document.getElementById("seconds").innerHTML = fixZero(seconds);
 
   if (days === 1) {
-    document.getElementById("dayslbl").innerHTML = "day";
+    document.getElementById("dayslbl").innerHTML = "Day";
   } else {
-    document.getElementById("dayslbl").innerHTML = "days";
+    document.getElementById("dayslbl").innerHTML = "Days";
   }
   if (hours === 1) {
     document.getElementById("hourslbl").innerHTML = "hour";

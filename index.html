@@ -10,32 +10,41 @@
     <link rel="stylesheet" href="./css/styles.css">
     <link rel="stylesheet" href="./css/index.css">
     <link rel="shortcut icon" href="./imgs/favicon/lobster.png" type="image/x-icon">
-
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Monoton&family=Playfair+Display&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&family=Rubik+Vinyl&display=swap" rel="stylesheet">
 
     <script src="./js/jquery-3.6.1.min.js"></script>
 </head>
-
 <body>
     <a id="divAdvert" href="https://github.com/prophet12505/Project-Winter-Seasonal-Event" target="_blank"><img
             id="sticker" src="imgs/sticker/snowflake.png" alt="click me to visit our code base"></a>
     <p></p>
-    <div class="nav w3-bar w3-black">
-        <a href="./index.html" class="w3-bar-item w3-button">Home</a>
-        <a href="./def.html" class="w3-bar-item w3-button">Web Languages</a>
-        <a href="./newsletter.html" class="w3-bar-item w3-button">Newsletter</a>
-    </div>
-    <div id="gallery-container" class="w3-cell-row">
 
+    <div id="gallery-container">
+        <div class="nav-index">
+            <a href="./index.html" class="w3-bar-item w3-button">Home</a>
+            <a href="./def.html" class="w3-bar-item w3-button">Web Languages</a>
+            <a href="./newsletter.html" class="w3-bar-item w3-button">Newsletter</a>
+        </div>
 
-
+        <a class="prev arrow" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next arrow" onclick="plusSlides(1)">&#10095;</a>
+        
         <div class="slide-container">
 
-            <div class="slides">
+            
+            <!-- <div class="slides">
                 <h2 id="slide-title" class="slide-heading ">Welcome to join our winter festival!</h2>
-                <h2 id="slide-subtitle" class="slide-heading">Explore, have fun!</h2>
+                <h2 id="slide-subtitle" class="slide-heading">Explore, have fun!</h2> -->
+                
                 <div class="mySlides">
                     <div class="numbertext">1/6</div>
                     <img src="./imgs/whale_res.jpg" style="width: 100%">
@@ -66,8 +75,7 @@
                     <img src="./imgs/dino_res.jpg" style="width: 100%;">
                 </div>
 
-                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                
             </div>
             <div class="caption-container w3-cell-row">
                 <p id="caption"></p>
@@ -75,30 +83,50 @@
 
 
             <div id="timer" class="timer w3-cell-row">
+
                 <div class="w3-cell-row">
                     <div class="w3-container w3-cell">
                         <div class="time-border" id="days-border">
-                            <div id="days" class="figure">&nbsp;</div>
+                            <div class="figure" id="days-figure">
+                                <p class="figure-data" id="days" >
+                                    &nbsp;
+                                </p>
+                                
+                            </div>
                             <h4 id="dayslbl" class="figure-label">Days</h4>
                         </div>
                     </div>
                 </div>
-                <div class="w3-cell-row">
+                <div class="w3-cell-row row-for-3-figures">
                     <div class="w3-container w3-cell">
                         <div class="time-border">
-                            <div id="hours" class="figure">&nbsp;</div>
+                            <div class="figure">
+                                <p id="hours" class="figure-data">
+                                &nbsp;
+                                </p>
+                            </div>
                             <!-- <h4 id="hourslbl" class="figure-label">hours</h4> -->
                         </div>
                     </div>
                     <div class="w3-container w3-cell">
                         <div class="time-border">
-                            <div id="minutes" class="figure">&nbsp;</div>
+                            <div class="figure">
+                                <p id="minutes"  class="figure-data">
+                                    &nbsp;
+                                </p>
+                                
+                            </div>
                             <!-- <h4 id="minuteslbl" class="figure-label">minutes</h4> -->
                         </div>
                     </div>
                     <div class="w3-container w3-cell">
                         <div class="time-border">
-                            <div id="seconds" class="figure">&nbsp;</div>
+                            <div class="figure">
+                                <p id="seconds"  class="figure-data">
+                                    &nbsp;
+                                </p>
+                                
+                            </div>
                             <!-- <h4 id="secondslbl" class="figure-label">seconds</h4> -->
                         </div>
                     </div>
@@ -121,7 +149,7 @@
 
                 <div class="column">
                     <img class="demo cursor w3-border" src="imgs/penguin_res.jpg" style="width: 100%"
-                        onclick="currentSlide(3)" alt="Snow  Sculpture  Fest">
+                        onclick="currentSlide(3)" alt="Snow  Sculpture Winter Fest">
                 </div>
 
                 <div class="column">
@@ -167,7 +195,7 @@
             </a>
             <div class="card-text">
                 <h3>To Jamal's page (placeholder)</h3>
-                <p class="hidden-text">Click anywhere on the image to see the schedule for all the events for the annual Snow Sculpture
+                <p class="hidden-tex">Click anywhere on the image to see the schedule for all the events for the annual Snow Sculpture
                     Winter Fest!</p>
             </div>
         </div>
