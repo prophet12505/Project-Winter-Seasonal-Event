@@ -133,8 +133,6 @@ h3 {
 p {
     margin: 20px;
     font-size: 12px;
-    visibility: hidden;
-    opacity: 0;
 }
 
 .card:hover {
@@ -227,12 +225,16 @@ p {
 
 
 .text-index {
+    background-color: #45858cd5;
     
 }    
 
 
 
-
+.cancel-margin{
+    margin: 0 !important;
+    padding: 0 !important;
+}
 
 
 

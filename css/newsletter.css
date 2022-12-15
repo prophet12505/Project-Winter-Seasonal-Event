@@ -1,4 +1,14 @@
-.timer{
+#timer{
     background-image:linear-gradient(to right bottom,#1008f0a5,#D9C589),url(../imgs/silhouette_res.jpg) ;
+    margin: 0;
+    padding: 0;
 }
 
+h1{
+    margin: 0;
+    padding: 0;
+}
+#gallery-container{
+    margin: 0;
+    padding: 0;
+}

@@ -42,6 +42,10 @@
 #seconds{
 
 }
+.hidden-text {
+    visibility: hidden;
+    opacity: 0;
+}
 
 .card-container {
     position: relative;
