@@ -2,6 +2,7 @@
     background-image:linear-gradient(to right bottom,#bf9765cd,#a3d9d9d1),url(../imgs/kids_res.jpg) ;
     margin: 0;
     padding: 0;
+    font-family: Montserrat Alternates;
 }
 
 #gallery-container{
@@ -43,7 +44,10 @@
 
 h3 {
     margin: 10px;
-    font-size: 20px;
+    font-size: 2vh;
+    font-family: Montserrat Alternates;
+    font-weight: bolder;
+    text-shadow: 2px 2px #45858C;
 }
 
 p {
@@ -56,18 +60,49 @@ p {
 }
 
 .card:hover .card-text {
-    height: 150px;
-    background-color: rgba(163, 217, 217, 0.85);
+    height: 200px;
+    background-color: #a3d9d9d1;
 
 }
 
 .card:hover p {
     opacity: 1;
     visibility: visible;
+    font-family: Montserrat Alternates;
+}
+
+.card:hover p .card-time {
+    opacity: 1;
+    visibility: visible;
+    font-family: Montserrat Alternates;
 }
 
 .card:hover .card-img {
     transform: scale(1.1) rotate(-2deg);
     box-shadow: black;
     border-radius: 10px;
+}
+
+.hidden-text {
+    visibility: hidden;
+    opacity: 0;
+    font-family: Montserrat Alternates;
+}
+
+.card-time {
+    visibility: hidden;
+    opacity: 0;
+    font-family: Montserrat Alternates;
+}
+
+.card-container {
+    position: relative;
+    margin: 10vw;
+    align-items: center;
+    
+    /* display: inline-block; */
+    /* width: 70%; */
+
+    /* margin: 0 auto; */
+
 }

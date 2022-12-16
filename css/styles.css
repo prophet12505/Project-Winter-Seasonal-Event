@@ -4,19 +4,33 @@
 
 body {
     margin: 0;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+    font-family: 'Montserrat Alternates';
+    color: snow;
 }
 
 .nav {
-    background-color: #45858C;
-    text-align: center;
+    background-color: snow;
+    text-align: left;
     position: relative;
-    font-size: 3vh;
-    font-family: 'Quicksand';
-    color: snow;
+    font-size: 1.5vh;
+    font-family: 'Montserrat Alternates';
+    color: black;
     /* text-shadow: 2px 2px #BF9765; */
     
 }
+
+#link {
+    text-decoration: none;
+    text-align: center;
+    padding: 8px 20px;
+    color: black;
+}
+
+#link:hover {
+    background-color: #45858cca !important;
+    color: #D9C589 !important;
+}
+
 
 .cursor {
     cursor: pointer;
@@ -30,7 +44,7 @@ body {
     width: auto;
     padding: 16px;
     margin-top: -50px;
-    color: azure;
+    color: snow;
     font-weight: bolder;
     font-size: 20px;
     border-radius: 0 3px 3px 0;
@@ -45,11 +59,11 @@ body {
 
 .prev:hover,
 .next:hover {
-    background-color: rgba(0, 0, 0, 0.4);
+    background-color: #a3d9d9b0;
 }
 
 .numbertext {
-    color: azure;
+    color: snow;
     font-size: 12px;
     padding: 15px 25px;
     position: absolute;
@@ -58,15 +72,22 @@ body {
 
 .caption-container {
     text-align: center;
-    background-color: #A3D9D9;
-    text-shadow: 3px 3px #A3D9D9;
-    color: snow;
-    padding: 0;
+    background-color: snow;
+}
+
+.caption-container:hover {
+    background-color: #a3d9d9b0;
 }
 
 #caption {
-    font-size: 48px;
-    font-family: 'Rubik Vinyl', cursive;
+    font-size: 5vh;
+    font-family: 'Sacramento', cursive;
+    color: #45858C;
+    margin: 6px;
+}
+
+#caption:hover {
+    color: snow;
 }
 
 .row:after {
@@ -90,15 +111,15 @@ body {
 }
 
 .text-index {
-    background-color: #A3D9D9;
     position: relative;
-    background-image: url(../imgs/silhouette_res.jpg);
+    background-image:linear-gradient(to right bottom,#bf9765cd,#a3d9d9d1),url(../imgs/silhouette_res.jpg) ;
     background-size: 1920px;
     background-position: center;
+    padding: 8px 16px 8px 16px;
 }
 
 #index-text-header  {
-    font-family: 'Quicksand' !important;
+    font-family: 'Montserrat Alternates' !important;
     font-weight: bold;
     text-shadow: 2px 2px #45858C;
     color: snow;
@@ -107,12 +128,12 @@ body {
 }
 
 #index-text {
-    font-family: 'Quicksand' !important;
+    font-family: 'Montserrat Alternates' !important;
     font-weight: bold;
-    text-shadow: 2px 2px #45858C;
+    /* text-shadow: 2px 2px #45858C; */
     color: snow;
     margin: 0;
-    padding: 2vw 2vw 2vw 2vw;
+    padding: 3vw 3vw 3vw 3vw;
 }
 
 /* moving content  */
@@ -183,8 +204,8 @@ body {
 .figure-label{
     font-size: 25px;
     font-weight: bolder;
-    font-family: 'Quicksand';
-    color: #A3D9D9;
+    font-family: 'Montserrat Alternates';
+    color: snow;
 }
 
 .cancel-margin{
@@ -228,12 +249,12 @@ body {
 }
 
 footer {
-    background-color: #45858C;
+    /* background-color: #45858C; */
     text-align: center;
     font-size: 12px;
-    font-family: 'Quicksand';
+    font-family: 'Montserrat Alternates';
     margin: 0;
     padding: 1vh 1vw 1vh 1vw;
-    color: snow;
-    text-shadow: 1px 1px #A3D9D9;
+    color: black;
+    /* text-shadow: 1px 1px #A3D9D9; */
 }

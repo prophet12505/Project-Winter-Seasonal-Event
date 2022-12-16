@@ -90,19 +90,7 @@
 #seconds{
 
 }
-.hidden-text {
-    visibility: hidden;
-    opacity: 0;
-}
 
-.card-container {
-    position: relative;
-    /* display: inline-block; */
-    /* width: 70%; */
-
-    /* margin: 0 auto; */
-
-}
 
 #index-text {
     position: relative;
@@ -152,5 +140,5 @@
 }
 
 #dayslbl {
-    width: -5vw;
+    width: -5vw;
 }

@@ -30,21 +30,21 @@ function countDown() {
   } else {
     document.getElementById("dayslbl").innerHTML = "Days";
   }
-  // if (hours === 1) {
-  //   document.getElementById("hourslbl").innerHTML = "hour";
-  // } else {
-  //   document.getElementById("hourslbl").innerHTML = "hours";
-  // }
-  // if (minutes === 1) {
-  //   document.getElementById("minuteslbl").innerHTML = "minute";
-  // } else {
-  //   document.getElementById("minuteslbl").innerHTML = "minutes";
-  // }
-  // if (seconds === 1) {
-  //   document.getElementById("secondslbl").innerHTML = "second";
-  // } else {
-  //   document.getElementById("secondslbl").innerHTML = "seconds";
-  // }
+  if (hours === 1) {
+    document.getElementById("hourslbl").innerHTML = "Hour";
+  } else {
+    document.getElementById("hourslbl").innerHTML = "Hours";
+  }
+  if (minutes === 1) {
+    document.getElementById("minuteslbl").innerHTML = "Minute";
+  } else {
+    document.getElementById("minuteslbl").innerHTML = "Minutes";
+  }
+  if (seconds === 1) {
+    document.getElementById("secondslbl").innerHTML = "Second";
+  } else {
+    document.getElementById("secondslbl").innerHTML = "Seconds";
+  }
 
   if (days < 1 && (hours < 12 || minutes < 0 || seconds < 60)) {
     document.getElementById("timer").style.color = "darkred";
@@ -67,4 +67,4 @@ function fixZero(data) {
   return data;
 }
 
-let startCountDown = setInterval(countDown, 500); // Start countdown and update every 1 second
+let startCountDown = setInterval(countDown, 500); // Start countdown and update every 1 second
