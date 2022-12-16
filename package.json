@@ -1,0 +1,24 @@
+{
+  "name": "project-winter-seasonal-event-2",
+  "version": "1.0.0",
+  "description": "This is the winter seasonal event project of our programming fundamental course",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/prophet12505/Project-Winter-Seasonal-Event.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/prophet12505/Project-Winter-Seasonal-Event/issues"
+  },
+  "homepage": "https://github.com/prophet12505/Project-Winter-Seasonal-Event#readme",
+  "dependencies": {
+    "http-server": "^14.1.1",
+    "localtunnel": "^2.0.2"
+  }
+}
