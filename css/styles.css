@@ -15,7 +15,6 @@ body {
     font-size: 1.5vh;
     font-family: 'Montserrat Alternates';
     color: black;
-    /* text-shadow: 2px 2px #BF9765; */
     
 }
 
@@ -130,7 +129,6 @@ body {
 #index-text {
     font-family: 'Montserrat Alternates' !important;
     font-weight: bold;
-    /* text-shadow: 2px 2px #45858C; */
     color: snow;
     margin: 0;
     padding: 3vw 3vw 3vw 3vw;
@@ -145,7 +143,6 @@ body {
     z-index: 3;
 }
 #sticker:hover {
-    /* transform: scale(150%); */
     height: 120px;
     position: absolute ;
 }
@@ -164,7 +161,6 @@ body {
     width: 100%;
 
     margin: 40px;
-    /* background-color: rgba(137, 137, 137, 0.2); */
     opacity: 0.8;
     z-index: 1;
 }
@@ -178,12 +174,11 @@ body {
     border-radius: 50%;
     border-color: #45858cd5 #d92b04d2;
     font-family: 'Monoton', cursive;
-    /* font-size: 70px; */
+
     font-size: 77px;
     text-align: center;
     color: #D9C589;
     text-shadow: 2px 2px #45858cd5;
-    /* border-color: linear-gradient(to right bottom,#10a19cbd,#550375af); */
 }
 .figure-data{
     font-size: 90px;
