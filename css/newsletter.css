@@ -111,3 +111,11 @@ footer {
     
 }
 
+#idonthavetimetorenamemyid{
+    color: #FFFFFF;
+    margin: 0px 10%;
+    padding-bottom: 20px;
+    font-weight: lighter;
+    font-style: italic;
+    font-family: 'Montserrat Alternates', Courier, monospace;
+}
