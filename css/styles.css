@@ -182,6 +182,7 @@ body {
     font-size: 77px;
     text-align: center;
     color: #D9C589;
+    text-shadow: 2px 2px #45858cd5;
     /* border-color: linear-gradient(to right bottom,#10a19cbd,#550375af); */
 }
 .figure-data{
@@ -249,12 +250,11 @@ body {
 }
 
 footer {
-    /* background-color: #45858C; */
     text-align: center;
-    font-size: 12px;
+    font-size: 1.5vh;
     font-family: 'Montserrat Alternates';
     margin: 0;
     padding: 1vh 1vw 1vh 1vw;
     color: black;
-    /* text-shadow: 1px 1px #A3D9D9; */
+    
 }

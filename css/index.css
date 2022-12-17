@@ -26,31 +26,30 @@
 
 .slide-heading{
     position: absolute;
-    color: white;
-    left: 25vw;
+    color: #45858cd5;
+    left: 60vw;
     text-align: center;
-    font-family: 'Playfair Display', serif;
+    font-family: 'Montserrat Alternates', serif;
     font-weight: 500;
-    font-size: 3.5rem;
+    font-size: 4vh;
     line-height: 1.7;
     letter-spacing: 3px;
-    text-shadow: #1008f0a5 1px 1px 1px;
-    color: #e0e718ec;
-    margin: 0;
-    padding: 0;
-
+    text-shadow: #D9C589 2px 2px 1px;
+    color: white;
+    margin-top: 0;
+    padding: 9vh;
 }
 #slide-title{
     top: 0px;
     animation-name: moveInLeft;
-    animation-duration: 1.5s;
+    animation-duration: 2.5s;
     animation-timing-function: ease-in;
     
 }
 #slide-subtitle{
-    top: 60px;
+    top: 5vh;
     animation-name: moveInRight;
-    animation-duration: 1.5s;
+    animation-duration: 2.0s;
     animation-timing-function: ease-in;
 }
 .gallery-container {
@@ -75,7 +74,7 @@
 
 
 .arrow{
-    z-index: 5;
+    z-index: 10;
 }
 
 #days{
@@ -140,5 +139,5 @@
 }
 
 #dayslbl {
-    width: -5vw;
+  width: -5vw;
 }
