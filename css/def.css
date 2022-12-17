@@ -99,9 +99,9 @@ p {
 .card-container {
     position: relative;
     margin: 0 auto;
-    margin-left: 15%;
-    margin-right: 15%;
-    width: 70%;
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 80%;
     /* transform: translateX(-50%); */
     align-items: center;
     
